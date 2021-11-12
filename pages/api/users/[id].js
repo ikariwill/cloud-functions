@@ -3,7 +3,7 @@
 export default function handler(req, res) {
   const { id } = req.query;
 
-  if(id === 455) {
+  if(id === '455') {
     res.status(200).json({ id, name: 'Willian' })
   }
   else {

@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-  const { id } = req.params;
+  const { id } = req.query;
 
   if(id === 455) {
     res.status(200).json({ id, name: 'Willian' })
